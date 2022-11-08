@@ -1,0 +1,168 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/giaco/ontologies/2022/10/untitled-ontology-7#"
+     xml:base="http://www.semanticweb.org/giaco/ontologies/2022/10/untitled-ontology-7"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:untitled-ontology-7="http://www.semanticweb.org/giaco/ontologies/2022/10/untitled-ontology-7#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/giaco/ontologies/2022/10/untitled-ontology-7"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/giaco/ontologies/2022/10/untitled-ontology-7#descrizione_sintomo -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/giaco/ontologies/2022/10/untitled-ontology-7#descrizione_sintomo"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/giaco/ontologies/2022/10/untitled-ontology-7#affaticamento -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/giaco/ontologies/2022/10/untitled-ontology-7#affaticamento">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/giaco/ontologies/2022/10/untitled-ontology-7#sintomi_malattie_cardiovascolari"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/giaco/ontologies/2022/10/untitled-ontology-7#dolore_torace -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/giaco/ontologies/2022/10/untitled-ontology-7#dolore_torace">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/giaco/ontologies/2022/10/untitled-ontology-7#sintomi_malattie_cardiovascolari"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/giaco/ontologies/2022/10/untitled-ontology-7#gonfiore -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/giaco/ontologies/2022/10/untitled-ontology-7#gonfiore">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/giaco/ontologies/2022/10/untitled-ontology-7#sintomi_malattie_cardiovascolari"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/giaco/ontologies/2022/10/untitled-ontology-7#palpitazioni -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/giaco/ontologies/2022/10/untitled-ontology-7#palpitazioni">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/giaco/ontologies/2022/10/untitled-ontology-7#sintomi_malattie_cardiovascolari"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/giaco/ontologies/2022/10/untitled-ontology-7#problemi_stomaco -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/giaco/ontologies/2022/10/untitled-ontology-7#problemi_stomaco">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/giaco/ontologies/2022/10/untitled-ontology-7#sintomi_malattie_cardiovascolari"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/giaco/ontologies/2022/10/untitled-ontology-7#respiro_corto -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/giaco/ontologies/2022/10/untitled-ontology-7#respiro_corto">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/giaco/ontologies/2022/10/untitled-ontology-7#sintomi_malattie_cardiovascolari"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/giaco/ontologies/2022/10/untitled-ontology-7#sintomi_malattie_cardiovascolari -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/giaco/ontologies/2022/10/untitled-ontology-7#sintomi_malattie_cardiovascolari"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/giaco/ontologies/2022/10/untitled-ontology-7#istanza_affaticamento -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/giaco/ontologies/2022/10/untitled-ontology-7#istanza_affaticamento">
+        <rdf:type rdf:resource="http://www.semanticweb.org/giaco/ontologies/2022/10/untitled-ontology-7#affaticamento"/>
+        <descrizione_sintomo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;Si parla di astenia quando la persona sente un forte bisogno di riposare e ha talmente poca energia che iniziare e proseguire qualsiasi attività risulta difficile. È normale dopo uno sforzo fisico, uno stress prolungato e la privazione del sonno. Tuttavia, l’astenia che aumenta e si sviluppa dopo attività che in precedenza non l’avevano causata può essere uno dei sintomi o, a volte, il primo sintomo di una malattia.&quot;</descrizione_sintomo>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/giaco/ontologies/2022/10/untitled-ontology-7#istanza_dolore_torace -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/giaco/ontologies/2022/10/untitled-ontology-7#istanza_dolore_torace">
+        <rdf:type rdf:resource="http://www.semanticweb.org/giaco/ontologies/2022/10/untitled-ontology-7#dolore_torace"/>
+        <descrizione_sintomo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;I dolori al petto, conosciuti anche come dolore toracico, sono dei dolori nella parte anteriore del torace, ovvero tra il collo e la parte superiore dell’addome. Possono essere un sintomo di varie patologie cardiache, respiratorie, infettive, nervose e di lesioni osteo-articolari o muscolari. A volte il dolore toracico si può diffondere al collo, all’addome o alla schiena. È un dolore molto frequente e può presentare intensità diverse a seconda della causa o dell’origine.&quot;</descrizione_sintomo>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/giaco/ontologies/2022/10/untitled-ontology-7#istanza_gonfiore -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/giaco/ontologies/2022/10/untitled-ontology-7#istanza_gonfiore">
+        <rdf:type rdf:resource="http://www.semanticweb.org/giaco/ontologies/2022/10/untitled-ontology-7#gonfiore"/>
+        <descrizione_sintomo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;Il gonfiore è dovuto a un eccessivo accumulo di liquidi nei tessuti. I liquidi sono composti principalmente da acqua.
+Il gonfiore può essere diffuso o limitato a un singolo arto o a una parte di arto. Il gonfiore è spesso a carico dei piedi e delle gambe.
+Il gonfiore diffuso è più comunemente causato da insufficienza cardiaca.&quot;</descrizione_sintomo>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/giaco/ontologies/2022/10/untitled-ontology-7#istanza_palpitazioni -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/giaco/ontologies/2022/10/untitled-ontology-7#istanza_palpitazioni">
+        <rdf:type rdf:resource="http://www.semanticweb.org/giaco/ontologies/2022/10/untitled-ontology-7#palpitazioni"/>
+        <descrizione_sintomo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;Il cardiopalmo, detto anche palpitazioni, sono definite come consapevolezza cosciente del proprio battito cardiaco.
+Il cardiopalmo, o palpitazioni, è la percezione dei propri battiti cardiaci che vengono avvertiti sul precordio (parte del torace anteriore allo sterno), alla gola o al collo. Le palpitazioni possono dare l&apos;impressione di un&apos;anomalia a carico del cuore; spesso, però, questa manifestazione è transitoria e del tutto innocua.&quot;</descrizione_sintomo>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/giaco/ontologies/2022/10/untitled-ontology-7#istanza_problemi_stomaco -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/giaco/ontologies/2022/10/untitled-ontology-7#istanza_problemi_stomaco">
+        <rdf:type rdf:resource="http://www.semanticweb.org/giaco/ontologies/2022/10/untitled-ontology-7#problemi_stomaco"/>
+        <descrizione_sintomo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;Tra i sintomi di infarto miocardico si possono riconoscere anche dolori alla porzione superiore dell&apos;addome, con spasmi gastrici accompagnati da intensa sensazione di pirosi (acidità e bruciore di stomaco).
+Un dolore localizzato soltanto alla bocca dello stomaco insieme a dolore sordo e gravativo alla parte alta dell&apos;addome, avvertiti anche lontano dai pasti, è possibile che ci sia un principio di infarto.
+Molto spesso insorge anche una forte nausea, che si manifesta improvvisamente e senza che il soggetto sia in fase digestiva: si tratta della tipica &quot;nausea cardiaca&quot;, provocata dalla sofferenza delle miocellule.&quot;</descrizione_sintomo>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/giaco/ontologies/2022/10/untitled-ontology-7#istanza_respiro_corto -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/giaco/ontologies/2022/10/untitled-ontology-7#istanza_respiro_corto">
+        <rdf:type rdf:resource="http://www.semanticweb.org/giaco/ontologies/2022/10/untitled-ontology-7#respiro_corto"/>
+        <descrizione_sintomo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;Il fiato corto (o dispnea) è un sintomo che indica una soggettiva difficoltà respiratoria.Le cause più frequenti del fiato corto comprendono crisi d&apos;asma, polmonite, broncopneumopatia cronica ostruttiva (BPCO) e infarto miocardico.Si manifesta sotto forma di respirazione difficile, paragonabile alla sensazione di non poter rifiatare oppure come affanno. Può presentarsi in modo graduale o improvvisamente.&quot;</descrizione_sintomo>
+    </owl:NamedIndividual>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+
