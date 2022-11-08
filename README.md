@@ -15,8 +15,8 @@ Installare le dipendenze:
 ## Avvio del sistema
 Si consiglia di avviare il sistema tramite VS Code.
 
-Per avviare il sistema utilizzare il comando da console:
+Per avviare il sistema esperto utilizzare il comando da console:
   
   ```python main.py```
 
-Per maggiori informazioni consultare la documentazione nella cartella **doc/**
+Per maggiori informazioni consultare la documentazione nella cartella **documentazione/**
