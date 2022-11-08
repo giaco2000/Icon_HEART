@@ -17,6 +17,6 @@ Si consiglia di avviare il sistema tramite VS Code.
 
 Per avviare il sistema utilizzare il comando da console:
   
-  ```python knowladgeBase.py```
+  ```python main.py```
 
 Per maggiori informazioni consultare la documentazione nella cartella **doc/**
